@@ -6,7 +6,8 @@ Contents
 
  - TeX file: `annot.tex`
  - Bibliography: `annot_qual.bib`
-
+ - Misc. Notes: `notes.org`
+ 
 Building the PDF
 ----------------
 
