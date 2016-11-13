@@ -13,6 +13,13 @@
   :PI: Melanie Wright
   :STATUS: inactive
   :END:
+** RDA/NISO Privacy Implications of Research Data Sets Interest Group
+  :PROPERTIES:
+  :URL: http://www.rd-alliance.org/groups/rdaniso-privacy-implications-research-data-sets-wg.html
+  :END:
+
+Case statement: http://www.rd-alliance.org/groups/rdaniso-privacy-implications-research-data-sets-wg/case-statement/rdaniso-privacy-implications
+
 * Standards
 ** ISO/IEC 27001:2013
   :PROPERTIES:
