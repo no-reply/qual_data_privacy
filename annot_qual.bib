@@ -19,7 +19,7 @@
 	month = jun,
 	year = {2014},
 	keywords = {Computers / Databases / Data Mining, Computers / Databases / General, Computers / Social Aspects / General, Law / Communications, Mathematics / Probability \& Statistics / General, Political Science / Human Rights, Science / Philosophy \& Social Aspects},
-        annote = {Chapters 9 (Greenwood, et. al., 2014), 10 (Landwehr, 2014), and 11 (Wilbanks, 2014) are of particular interest and listed separately here. Chapter 14 gives a context-appropriate overview of \emph{Differential Privacy}.}
+        annote = {Chapters 9\cite{greenwood_new_deal_2014}, 10\cite{landwehr_controls_2014}, and 11\cite{wilbanks_informed_2014} are of particular interest. Chapter 14\cite{dwork_differential_2014} gives a context-appropriate overview of \emph{Differential Privacy}, also described in \cite{dwork_icalp_2006} and \cite{dwork_book_2014}.}
 }
 
 %% Greenwood, et. al., 2014
@@ -38,7 +38,7 @@
 
 %% Landwehr, 2014
 @incollection{landwehr_controls_2014,
-  title = {Engineerd Controls for Dealing with Data},
+  title = {Engineered Controls for Dealing with Data},
   author = {Carl Landwehr},
   publisher = {Cambridge University Press},
   month = jun,
@@ -62,7 +62,23 @@
   pages = {234-252}
 }
 
-%% Dwork, 2014 (find a better citation than this? so many Diff. Privacy papers by Dwork & co.; the ICALP paper?)
+%% Dwork, 2014
+@incollection{dwork_differential_2014,
+  title = {Differential Privacy: {A} Cryptographic Approach to Private Data Analysis},
+  author = {Cynthia Dwork},
+  publisher = {Cambridge University Press},
+  month = jun,
+  year = {2014},
+  editor = {Lane, Julia and Stodden, Victoria and Bender, Stefan and Nissenbaum, Helen},
+  booktitle = {Privacy, {Big} {Data}, and the {Public} {Good}: {Frameworks} for {Engagement}},
+  chapter = {14},
+  pages = {296-322},
+  annote = {The article provides a high level overview of \emph{differential privacy}, a mathematical definition of privacy preserving computation suitable for statistical databases. The definition can be summarized loosely as \emph{the probability of an outcome is unchanged by the inclusion or exclusion of a particular person's data in the database, within tolerance of a term $\varepsilon$ measuring privacy loss}. \\
+  Dwork addresses some key goals motivating this definition, and some of the properties shared by all \emph{differentially private} computations. Short, readable mathematical treatments are given for some of the common methods for achieving differential privacy, real-world examples are briefly described, and some technical and social challenges are acknowledged. \\
+  \emph{Differential privacy} is introduced by \cite{dwork_icalp_2006}; a recent book-length introduction is \cite{dwork_book_2014}. \\
+  \emph{big data, privacy-preserving computation}
+  }
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -104,6 +120,38 @@
         year = {2009},
         pages = {405-421},
         url = {\url{http://dx.doi.org/10.1108/14684520910969871}}
+}
+
+%% Dwork & Ross 2014
+@article{dwork_book_2014,
+  url = {http://dx.doi.org/10.1561/0400000042},
+  year = {2014},
+  volume = {9},
+  journal = {Foundations and Trends® in Theoretical Computer Science},
+  title = {The Algorithmic Foundations of Differential Privacy},
+  doi = {10.1561/0400000042},
+  issn = {1551-305X},
+  number = {3–4},
+  pages = {211-407},
+  author = {Cynthia Dwork and Aaron Roth}
+}
+
+%% Dwork 2006
+@inproceedings{dwork_icalp_2006,
+  author = {Cynthia Dwork},
+  title = {Differential Privacy},
+  booktitle = {33rd International Colloquium on Automata, Languages and Programming, part II (ICALP 2006)},
+  year = {2006},
+  month = {July},
+  abstract = {In 1977 Dalenius articulated a desideratum for statistical databases: nothing about an individual should be learnable from the database that cannot be learned without access to the database. We give a general impossibility result showing that a formalization of Dalenius’ goal along the lines of semantic security cannot be achieved. Contrary to intuition, a variant of the result threatens the privacy even of someone not in the database. This state of affairs suggests a new measure, differential privacy, which, intuitively, captures the increased risk to one’s privacy incurred by participating in a database. The techniques developed in a sequence of papers [8, 13, 3], culminating in those described in [12], can achieve any desired level of privacy under this measure. In many cases, extremely accurate information about the database can be provided while simultaneously ensuring very high levels of privacy.},
+  publisher = {Springer Verlag},
+  url = {https://www.microsoft.com/en-us/research/publication/differential-privacy/},
+  address = {Venice, Italy},
+  pages = {1-12},
+  journal = {},
+  volume = {4052},
+  chapter = {},
+  isbn = {3-540-35907-9},
 }
 
 %% Elman, Kapiszewski, & Vineulay, 2010
